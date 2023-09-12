@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T02:05:14.178Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.4" etag="681fTdspBUxttEWARUui" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T02:07:58.004Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="g6rB3DwgrpgXBJpQulKL" version="21.7.4" type="github">
   <diagram name="Page-1" id="2if6pwwHlhWu2cAU6WJ_">
-    <mxGraphModel>
+    <mxGraphModel dx="1038" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WKjf0M-vE_uG8LFnqsKe-1" value="Karung Racing" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="290" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="WKjf0M-vE_uG8LFnqsKe-2" value="Pemain" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WKjf0M-vE_uG8LFnqsKe-3" value="Loncat" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="210" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WKjf0M-vE_uG8LFnqsKe-5" value="Maju" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="320" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WKjf0M-vE_uG8LFnqsKe-6" value="Cek Finish" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="430" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WKjf0M-vE_uG8LFnqsKe-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WKjf0M-vE_uG8LFnqsKe-2" target="WKjf0M-vE_uG8LFnqsKe-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="390" as="sourcePoint" />
+            <mxPoint x="550" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKjf0M-vE_uG8LFnqsKe-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WKjf0M-vE_uG8LFnqsKe-2" target="WKjf0M-vE_uG8LFnqsKe-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="390" as="sourcePoint" />
+            <mxPoint x="550" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKjf0M-vE_uG8LFnqsKe-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WKjf0M-vE_uG8LFnqsKe-2" target="WKjf0M-vE_uG8LFnqsKe-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="390" as="sourcePoint" />
+            <mxPoint x="550" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
